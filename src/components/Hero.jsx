@@ -8,6 +8,7 @@ import figma from "../assets/figmaicon.svg";
 import linkedin from "../assets/linkedinicon.svg";
 import github from "../assets/githubicon.svg";
 import twitter from "../assets/twittericon.svg";
+import resume from "../assets/leejunkuan_resume.pdf"
 
 const Hero = () => {
   return (
@@ -55,7 +56,7 @@ const Hero = () => {
             />
           </a>
           <a
-            href="#"
+            href={resume}
             target="_blank"
             className="hidden lg:block h-10 px-4 py-[6px] font-bold bg-white rounded-full hover:-translate-y-3 transition duration-700 ease-in-out"
           >
@@ -70,9 +71,6 @@ const Hero = () => {
             alt="HTML"
             className="w-full h-full object-contain hover:scale-110 p-5 sm:p-7 md:p-9 transition duration-300 ease-in-out"
           />
-          {/* <p className="absolute hidden md:block bottom-2 left-2 text-sm text-slate-800">
-            HTML
-          </p> */}
         </div>
         <div className="relative w-24 h-24 sm:w-28 sm:h-28 md:w-36 md:h-36 flex justify-center items-center bg-gray-200 hover:bg-gray-300 hover:font-bold rounded-md">
           <img
@@ -80,9 +78,6 @@ const Hero = () => {
             alt="CSS"
             className="w-full h-full object-contain hover:scale-110 p-5 sm:p-7 md:p-9 transition duration-300 ease-in-out"
           />
-          {/* <p className="absolute hidden md:block bottom-2 left-2 text-sm text-slate-800">
-            CSS
-          </p> */}
         </div>
         <div className="relative w-24 h-24 sm:w-28 sm:h-28 md:w-36 md:h-36 flex justify-center items-center bg-gray-200 hover:bg-gray-300 hover:font-bold rounded-md">
           <img
@@ -90,9 +85,6 @@ const Hero = () => {
             alt="JavaScript"
             className="w-full h-full object-contain hover:scale-110 p-5 sm:p-7 md:p-9 transition duration-300 ease-in-out"
           />
-          {/* <p className="absolute hidden md:block bottom-2 left-2 text-sm text-slate-800">
-            JavaScript
-          </p> */}
         </div>
         <div className="relative w-24 h-24 sm:w-28 sm:h-28 md:w-36 md:h-36 flex justify-center items-center bg-gray-200 hover:bg-gray-300 hover:font-bold rounded-md">
           <img

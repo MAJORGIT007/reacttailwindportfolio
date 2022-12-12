@@ -15,8 +15,8 @@ const Navbar = () => {
           </a>
         </li>
         <li>
-          <a href="#" className="text-xl text-white font-bold">
-            About
+          <a href="#aboutme" className="text-xl text-white font-bold">
+            About Me
           </a>
         </li>
       </ul>

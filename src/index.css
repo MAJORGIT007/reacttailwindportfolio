@@ -29,4 +29,8 @@ body {
   .react-color {
     @apply text-[#61DAFB];
   }
+
+  .linkedin-color {
+    @apply text-[#0A66C2];
+  }
 }

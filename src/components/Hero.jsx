@@ -8,7 +8,7 @@ import figma from "../assets/figmaicon.svg";
 import linkedin from "../assets/linkedinicon.svg";
 import github from "../assets/githubicon.svg";
 import twitter from "../assets/twittericon.svg";
-import resume from "../assets/leejunkuan_resume.pdf"
+import resume from "../assets/leejunkuan_resume.pdf";
 
 const Hero = () => {
   return (
@@ -16,14 +16,14 @@ const Hero = () => {
       id="hero"
       className="h-screen flex flex-col justify-center items-center mx-8 lg:text-left lg:flex-row m-auto gap-8"
     >
-      <div className="w-[320px] sm:w-[370px] md:w-[470px] lg:w-[470px] flex lg:flex-col gap-[30px]">
-        <div className="w-[250px] sm:w-[330px] md:w-[420px] lg:w-[470px]">
+      <div className="w-full max-w-[640px] lg:w-[470px] flex lg:flex-col justify-between lg:gap-[30px]">
+        <div className="w-full max-w-[250px] sm:max-w-none">
           <h1>
             Hi there!
             <br />
             My name is <span className="tailwind-color">Jun</span>
           </h1>
-          <p className="paragraph">
+          <p className="paragraph max-w-[300px] md:max-w-[350px] sm:max-w-none">
             I am a fresh graduate, focusing on Frontend Web Developement,
             passionate about{" "}
             <span className="text-white font-bold">responsive web design</span>{" "}
@@ -64,7 +64,7 @@ const Hero = () => {
           </a>
         </div>
       </div>
-      <div className="w-[320px] sm:w-[370px] md:w-[465px] flex flex-wrap justify-center items-center gap-3 sm:gap-4">
+      <div className="w-full max-w-[640px] lg:w-[465px] flex flex-wrap justify-center items-center gap-3 sm:gap-4">
         <div className="relative w-24 h-24 sm:w-28 sm:h-28 md:w-36 md:h-36 flex justify-center items-center bg-gray-200 hover:bg-gray-300 hover:font-bold rounded-md">
           <img
             src={html}
